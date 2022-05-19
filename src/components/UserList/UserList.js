@@ -3,17 +3,17 @@ import styles from "./UserList.module.css";
 
 const UserList = (props) => {
     return (
-        <Card>
-            {
-                props.items.map((item) => {
-                    return (
-                        <div key={item.name}>
-                            <label>{item.name}</label>
-                            <label>{item.age}</label>
-                        </div>
-                    )
-                })
-            }
+        <Card className={styles.users}>
+            <ul>
+                {
+                    props.items.map((item) => {
+                        return (
+                            <li key={item.name}>{item.name} {item.age} years old</li>
+                        )
+                    })
+                }
+            </ul>
+
         </Card>
     );
 }

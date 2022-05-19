@@ -1,7 +1,23 @@
 .block {
   padding: 1rem;
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(131, 131, 131);
   margin: 2rem auto;
-  width: 50rem;
-  max-width: 95%;
+  width: 90%;
+  max-width: 40rem;
+}
+.users {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+}
+
+.users ul {
+  list-style: none;
+  padding: 1rem;
+}
+
+.users li {
+  border: 1px solid #ccc;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
 }
