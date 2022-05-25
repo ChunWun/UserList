@@ -27,10 +27,10 @@ function App() {
   }
 
   return (
-    <div>
+    <React.Fragment>
       <UserInput addNewUser={onAddNewUserHandler} />
       <UserList items={userList} />
-    </div>
+    </React.Fragment>
   );
 }
 
